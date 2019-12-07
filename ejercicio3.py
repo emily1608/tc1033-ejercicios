@@ -11,3 +11,11 @@ class Maritimos(Vehiculos):
 
 class Aereos(Vehiculos):
     def __init__(self):
+
+class Terrestres(Vehiculos):
+    def __init__(self, _no_ruedas, _datos_motor, _no_puertas):
+        self.no_ruedas = _no_ruedas
+        self.datos_motor = _datos_motor
+        self.no_puertas = _no_puertas
+
+
