@@ -1,3 +1,9 @@
+class Motor():
+    def __init__(self, _combustible, _fabricante, _potencia):
+        self.combustible = _combustible
+        self.fabricante = _fabricante
+        self.potencia = _potencia
+        
 class Vehiculos():
     def __init__(self, _matricula, _medio, _cap_pasajeros, _vel_max):
         self.matricula = _matricula
@@ -13,7 +19,7 @@ class Aereos(Vehiculos):
     def __init__(self, _tipo_propulsion):
         self.tipo_propulsion = _tipo_propulsion
 
-class Terrestres(Vehiculos,Ruedas):
+class Terrestres(Vehiculos):
     def __init__(self, _no_ruedas, _datos_motor, _no_puertas):
         self.no_ruedas = _no_ruedas
         self.datos_motor = _datos_motor
