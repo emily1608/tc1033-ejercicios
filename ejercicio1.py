@@ -16,11 +16,10 @@ class Perceptron():
         else:
             print("0")
 
-
-
 if __name__=="__main__":
     nombre=Nombre()
     number=Run()
+    percep=Perceptron()
     nombre.greet("Hansel", "Gretel")
 
     print("Ingreas un número que se encuentre 0 y 10.")
@@ -30,3 +29,11 @@ if __name__=="__main__":
         print("Ingreas un número nuevo que se encuentre 0 y 10. PORFAVOR")
         numero = int(input())
         numero.run(number)
+
+    resultado.perceptron(percep)
+    percep.perceptron(1,5,1,5)
+    print(resultado)
+    percep.perceptron(1,10,1,5)
+    print(resultado)
+    percep.perceptron(1,5,1,10)
+    print(resultado)
