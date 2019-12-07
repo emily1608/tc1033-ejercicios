@@ -1,0 +1,50 @@
+id,Nombre,Biblioteca de figuras,ID de página,Contenido por,Grupo,Origen de línea,Destino de la línea,Flecha de origen,Flecha de destino,Área de texto 1,Área de texto 2,Área de texto 3
+1,Página,,,,,,,,,Diagrama de clases UML,,
+2,Clase,UML,1,,,,,,,Motor,"-combustible:
+-faabricante:
+-potencia:",
+3,Clase,UML,1,,,,,,,Marítimos,"-tipo_ptopulsion:
+",
+4,Clase,UML,1,,,,,,,Aereos,,
+5,Clase,UML,1,,,,,,,Terrestres,"-no_ruedas:
+-datos_motor:
+-no_puertas",
+6,Clase,UML,1,,,,,,,Vehiculos,"-matricula
+-medio
+-cap_pasajeros
+-vel_max",
+7,Clase,UML,1,,,,,,,Ruedas,"-tamaño_in:
+-presion_ideal:
+-fabricante:",
+8,Clase,UML,1,,,,,,,Propulsión,"-vela
+-motor
+-remo
+-atributo cuatro",
+9,Contenedor de rectángulo redondeado,Figuras de diagramas de flujo,1,,30,,,,,,,
+10,Texto,Estándar,1,9,30,,,,,"Tutoriales de diagramas de clases UML
+(mantén presionado Mayús + ⌘ o Ctrl, y haz clic)
+
+
+",,
+11,Texto,Estándar,1,9,30,,,,,Descripción,,
+12,Texto,Estándar,1,9,30,,,,,"Los diagramas de clases UML trazan la estructura de un sistema específico al modelar sus clases, atributos, operaciones y relaciones entre objetos. 
+
+Para personalizar esta plantilla, haz clic en cualquier figura y escribe la información que te gustaría incluir. Agrega las figuras de clases y organízalas según creas necesario. Luego, actualiza la cardinalidad. También puedes generar automáticamente diagramas de clases de tus repositorios de Bitbucket.",,
+13,Botón,Prototipos de interfaz de usuario,1,9,30,,,,,Mirar un tutorial sobre cómo generar automáticamente un diagrama de clases UML,,
+14,Botón,Prototipos de interfaz de usuario,1,9,30,,,,,Lee sobre los diagramas de clases UML,,
+15,Botón,Prototipos de interfaz de usuario,1,9,30,,,,,Mirar un tutorial de diagrama de clases UML,,
+16,Botón,Prototipos de interfaz de usuario,1,9,30,,,,,Mirar los tutoriales básicos de Lucidchart,,
+17,Imagen de usuario,Imágenes de usuario,1,9,30,,,,,,,
+18,Bifurcación/unión vertical,UML,1,,,,,,,,,
+19,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+20,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+21,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+22,Bifurcación/unión vertical,UML,1,,,,,,,,,
+23,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+24,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+25,Bifurcación/unión horizontal,UML,1,,,,,,,,,
+26,Línea,,1,,,18,6,None,Open Arrow,,,
+27,Línea,,1,,,2,6,None,Composition,,,
+28,Línea,,1,,,22,8,None,Composition,,,
+29,Línea,,1,,,5,7,None,Composition,,,
+30,Grupo 1,,1,,,,,,,,,
