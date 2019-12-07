@@ -1,11 +1,22 @@
 #Morales Hernández Emily Grettel
-def greet():
-    nombre=(input("What is your name?"))
-    return nombre
+class Greet():
+    def greet():
+        nombre=(input("What is your name?"))
+        return nombre
+class Run():
+    def run(self,_numero):
+        for x in range(0, _numero):
+            print("Running")
 
-def run(self,_numero):
-    for x in range(0, _numero):
-        print("Running")
+class Perceptron():
+    def perceptron(self, _a, _b, _c, _d):
+        resultado = ab + cd 
+        if resultado > 20:
+            print("1")
+        else:
+            print("0")
+
+
 
 if __name__=="__main__":
     nombre=Nombre()
