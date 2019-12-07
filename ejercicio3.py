@@ -25,5 +25,10 @@ class Ruedas():
         self.presion_ideal = _presion_ideal
         self.fabricante = _fabricante
 
+class Propulsión():
+    def __init__(self, _vela, _motor, _remo):
+        self.vela = _vela
+        self.motor = _motor
+        self.remo = _remo
 
 
